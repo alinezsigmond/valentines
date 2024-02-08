@@ -58,6 +58,7 @@ body {
     background-color: var(--pink);
     font-family: var(--text);
     font-size: 30px;
+    text-decoration: none;
 }
 
 .yes:hover {
@@ -73,6 +74,7 @@ body {
     background-color: var(--blue);
     font-family: var(--text);
     font-size: 15px;
+    text-decoration: none;
 }
 
 .back {
@@ -82,6 +84,7 @@ body {
     background-color: var(--blue-2);
     font-family: var(--text);
     font-size: 30px;
+    text-decoration: none;
 }
 
 .hidden {
