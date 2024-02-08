@@ -1,0 +1,84 @@
+:root {
+    /* COLORS */
+    --pink: #fdcaff;
+    --blue: #b6f1ff;
+    --blue-2: #b0ffff;
+    --yellow: #fff8b9;
+
+    /* FONT */
+    --text: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+h1 {
+    font-family: var(--text);
+    font-size: 36px;
+    margin-top: 12%;
+}
+
+body {
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#main {
+    width: 320px;
+    margin: 30px 0 50px 0px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.yes {
+    border-style: hidden;
+    width: 150px;
+    height: 70px;
+    background-color: var(--pink);
+    font-family: var(--text);
+    font-size: 30px;
+}
+
+.yes:hover {
+    background-image: url('./assets/img/icon.png');
+    background-size: 33px;
+    background-blend-mode: screen;
+}
+
+.no {
+    border-style: hidden;
+    width: 40px;
+    height: 30px;
+    background-color: var(--blue);
+    font-family: var(--text);
+    font-size: 15px;
+}
+
+.back {
+    border-style: hidden;
+    width: 150px;
+    height: 90px;
+    background-color: var(--blue-2);
+    font-family: var(--text);
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
